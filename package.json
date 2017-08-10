@@ -1,0 +1,19 @@
+{
+  "name": "snapsng-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/raphael": "^2.1.30",
+    "raphael": "^2.2.7"
+  },
+  "devDependencies": {
+    "@types/snapsvg": "^0.4.29",
+    "snapsvg": "^0.5.1"
+  }
+}
