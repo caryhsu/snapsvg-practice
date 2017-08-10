@@ -3,9 +3,18 @@
     <head>
         <link rel="stylesheet" href="css/main.css"> </link>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
-        <script src="js/app2.js"></script>
+        <script id="s2" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg.js"></script>
+        <script src="js/app1.js"></script>
+        <script>
+$(document).ready(new function() {
+    window.setTimeout(function(){ 
+        window.paper = Snap("#svg");
+        draw(window.paper);
+    }, 500);
+});
+        </script>
     </head>
     <body>
+        <svg id="svg" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"></svg>
     </body>
 </html> 
